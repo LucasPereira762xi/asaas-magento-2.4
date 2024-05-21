@@ -42,12 +42,12 @@
 
 Access the Magento Admin Panel and through the the left menu go to `Stores` > `Configuration` > `Customers` > `Customer Configuration` > `Name and Address Options`. In `Number of Lines in a Street Address` you should inform the number 4, as shown in the image below:
 
-![FOTO 1](.github/img/01.png)
+![FOTO 1](.github/img-en/01.png)
 
 After configuring the Customer, Access the Magento Admin Panel and through the the left menu go to `Stores` > `Configuration` > `Sales` > `Payment Methods`. The screen to configure the payment methods of the store will be loaded.
 
 <p align="center">
-  <img src=".github/img/02.png" />
+  <img src=".github/img-en/02.png" />
 </p>
 
 ### How to enable Asaas on your site
@@ -58,7 +58,7 @@ Next, we have `General Settings`, `Credit Card Settings`, `Billet Settings` and 
 
 Note: For the following settings to work, all the previous steps must have been followed.
 
-![FOTO 3](.github/img/03.png)
+![FOTO 3](.github/img-en/03.png)
 
 
 ### General Settings
@@ -84,7 +84,7 @@ Note: For the following settings to work, all the previous steps must have been 
 - Enable notifications between Asaas and buyer
     - Enables email messages informing payment status changes. This option can be enabled or not.
 
-![FOTO 4](.github/img/04.png)
+![FOTO 4](.github/img-en/04.png)
 
 ### Credit Card Settings
 
@@ -100,7 +100,7 @@ Note: For the following settings to work, all the previous steps must have been 
 - Minimum installment amount
     - Set the minimum installment amount allowed
 
-![FOTO 5](.github/img/05.png)
+![FOTO 5](.github/img-en/05.png)
 
 ### Billet Settings
 
@@ -115,7 +115,7 @@ Note: For the following settings to work, all the previous steps must have been 
 
 - Discount Settings, Interest Settings, and Fine Settings allow you to set the discounts, interest, and fines of the billet, respectively.
 
-![FOTO 6](.github/img/06.png)
+![FOTO 6](.github/img-en/06.png)
 
 ### Pix Settings
 
@@ -128,4 +128,4 @@ Note: For the following settings to work, all the previous steps must have been 
 - Message to user
 	- Message displayed on the thank you screen after completing the order.
 
-![FOTO 7](.github/img/07.png)
+![FOTO 7](.github/img-en/07.png)
