@@ -26,15 +26,15 @@ class Boleto extends \Magento\Payment\Model\Method\AbstractMethod {
     \Magento\Payment\Helper\Data $paymentData,
     \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
     \Magento\Payment\Model\Method\Logger $logger,
-    \Magento\Framework\Model\ResourceModel\AbstractResource $resource = null,
-    \Magento\Framework\Data\Collection\AbstractDb $resourceCollection = null,
-    array $data = [],
     \Asaas\Magento2\Helper\Data $helper,
     \Magento\Checkout\Model\Session $checkout,
     \Magento\Store\Model\StoreManagerInterface $store,
     \Magento\Framework\Message\ManagerInterface $message,
     \Magento\Framework\Encryption\EncryptorInterface $encryptor,
-    \Magento\Customer\Model\Customer $customerRepositoryInterface
+    \Magento\Customer\Model\Customer $customerRepositoryInterface,
+    \Magento\Framework\Model\ResourceModel\AbstractResource $resource = null,
+    \Magento\Framework\Data\Collection\AbstractDb $resourceCollection = null,
+    array $data = []
   ) {
     parent::__construct(
       $context,

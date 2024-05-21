@@ -106,4 +106,8 @@ class Data extends AbstractHelper {
   public function getMinParcela(){
     return $this->getConfig('payment/asaasmagento2/options_cc/min_parcela');
   }
+
+  public function getPixInstructions(){
+    return $this->getConfig('payment/asaasmagento2/options_pix/instrucoes');
+  }
 }

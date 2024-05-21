@@ -23,6 +23,26 @@ class UpgradeSchema implements UpgradeSchemaInterface {
           'nullable' => true,
           'comment' => 'Boleto asaas'
         ]
+        );
+        $setup->getConnection()->addColumn(
+        $setup->getTable($orderTable),
+        'pix_asaas_qrcode',
+        [
+          'type' => \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+          'default' => null,
+          'nullable' => true,
+          'comment' => 'Pix Asaas Qrcode'
+        ]
+        );
+        $setup->getConnection()->addColumn(
+        $setup->getTable($orderTable),
+        'pix_asaas_payload',
+        [
+          'type' => \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+          'default' => null,
+          'nullable' => true,
+          'comment' => 'Pix Asaas Payload'
+        ]
       );
 
     $setup->endSetup();
