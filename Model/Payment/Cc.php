@@ -188,6 +188,7 @@ class Cc extends \Magento\Payment\Model\Method\AbstractMethod {
       CURLOPT_FOLLOWLOCATION => true,
       CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
       CURLOPT_CUSTOMREQUEST => "GET",
+      CURLOPT_USERAGENT => "magento",
       CURLOPT_HTTPHEADER => array(
         "access_token: " . $this->_decrypt->decrypt($this->helperData->getAcessToken()),
         "Content-Type: application/json"
@@ -212,6 +213,7 @@ class Cc extends \Magento\Payment\Model\Method\AbstractMethod {
       CURLOPT_FOLLOWLOCATION => true,
       CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
       CURLOPT_CUSTOMREQUEST => "POST",
+      CURLOPT_USERAGENT => "magento",
       CURLOPT_POSTFIELDS => json_encode($data),
       CURLOPT_HTTPHEADER => array(
         "access_token: " . $this->_decrypt->decrypt($this->helperData->getAcessToken()),
@@ -237,6 +239,7 @@ class Cc extends \Magento\Payment\Model\Method\AbstractMethod {
       CURLOPT_FOLLOWLOCATION => true,
       CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
       CURLOPT_CUSTOMREQUEST => "POST",
+      CURLOPT_USERAGENT => "magento",
       CURLOPT_POSTFIELDS => json_encode($data),
       CURLOPT_HTTPHEADER => array(
         "access_token: " . $this->_decrypt->decrypt($this->helperData->getAcessToken()),
