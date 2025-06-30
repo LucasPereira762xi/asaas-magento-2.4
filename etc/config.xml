@@ -30,12 +30,12 @@
         <active>1</active>
         <cctypes>AE,VI,MC,DI</cctypes>
         <title>Cartão de Crédito</title>
-        <order_status>pending_payment</order_status>        <!-- set default order status-->
+        <order_status>pending</order_status>        <!-- set default order status-->
       </cc>
       <boleto>
         <active>1</active>
         <model>Asaas\Magento2\Model\Payment\Boleto</model>
-        <order_status>holded</order_status>
+        <order_status>pending</order_status>
         <payment_action>order</payment_action>
         <title>Boleto</title>
         <allowspecific>0</allowspecific>
@@ -43,7 +43,7 @@
       <pix>
         <active>1</active>
         <model>Asaas\Magento2\Model\Payment\Pix</model>
-        <order_status>holded</order_status>
+        <order_status>pending</order_status>
         <payment_action>order</payment_action>
         <title>Pix</title>
         <allowspecific>0</allowspecific>

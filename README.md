@@ -6,12 +6,11 @@
 
 ### Versões Compatíveis
 
-- [x] 2.3.x
 - [x] 2.4.x
 
 ### Pré-requisitos
 
-- A versão do PHP deve ser pelo menos 7.1.X.
+- A versão do PHP deve ser pelo menos 7.4.X.
 
 ### Instalação do Módulo Asaas
 
