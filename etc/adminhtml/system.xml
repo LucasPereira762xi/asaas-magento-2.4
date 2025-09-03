@@ -57,6 +57,14 @@
               <field id="active_cc">1</field>
             </depends>
           </field>
+          <field id="active_invoice" translate="label comment" type="select" sortOrder="398" showInDefault="1" showInWebsite="1" showInStore="0">
+            <label>Create Invoice if payment was received?</label>
+            <comment>Do you want the Invoice to be triggered every time the asaas notifies you that the payment has been approved?</comment>
+            <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+            <depends>
+              <field id="active_cc">1</field>
+            </depends>
+          </field>
           <field id="sort_order" translate="label comment" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="0">
             <label>Display order</label>
             <comment>Display order in relation to other payment methods.</comment>
