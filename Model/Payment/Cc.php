@@ -125,11 +125,7 @@ class Cc extends \Magento\Payment\Model\Method\AbstractMethod {
         $dataUser['postalCode'] = $shippingaddress->getPostcode();
 
         //Habilita notificações entre o Asaas e o comprador
-        if (isset($notification)) {
-          $dataUser['notificationDisabled'] = 'false';
-        } else {
-          $dataUser['notificationDisabled'] = 'true';
-        }
+        $dataUser['notificationDisabled'] = $notification ? 'false' : 'true';
 
         //Verifica se foi informado o número foi informado
         if (isset($shippingaddress->getStreet()[1])) {
