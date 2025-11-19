@@ -80,7 +80,8 @@ Nota: Para que as configurações a seguir funcionem, todos os passos anteriores
 
 - Habilitar notificações entre Asaas e comprador
     - Habilita mensagens de email informando alterações no status do pagamento. Esta opção pode ser habilitada ou não.
-
+- Criar Fatura para o pedido se o pagamento for recebido:
+  - Gera a fatura do pedido quando recebe a notificação de pagamento aprovado.
 ![FOTO 4](.github/img/04.png)
 
 ### Configurações de Cartão de Crédito

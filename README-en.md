@@ -82,6 +82,8 @@ Note: For the following settings to work, all the previous steps must have been 
 
 - Enable notifications between Asaas and buyer
     - Enables email messages informing payment status changes. This option can be enabled or not.
+- Create Invoice if payment was received
+  - Order invoice will be triggered every time the asaas notifies you that the payment has been approved
 
 ![FOTO 4](.github/img-en/04.png)
 
